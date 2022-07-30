@@ -4,7 +4,7 @@
 This project builds Neural Network from Bike sharing Dataset from https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 to predict the number of bikes needed per day 
 
-##unit-test cases in the Project 
+##unit-test cases in the Project##
 
 1-The activation function should be a sigmoid
 2-The number of epochs should be between 50 and 15000
@@ -20,4 +20,4 @@ Input to hidden=[[0.10562014, -0.20185996], [0.39775194, 0.50074398], [-0.298875
 10-Validation loss should be less than 0.18
 
 
-As we can see, the Training loss = and the Validation loss= which is great but you can observe that the model overestimates bike ridership in December because it hasn't had sufficient holiday season training examples. The predictions generally are quite accurate, though!
+As we can see, the Training loss = 0.07and the Validation loss=0.15 which is great but you can observe that the model overestimates bike ridership in December because it hasn't had sufficient holiday season training examples. The predictions generally are quite accurate, though!
